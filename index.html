@@ -32,6 +32,38 @@
 
             <button>Report an Issue</button>
         </section>
+          <form>
+
+        <label for="title">Issue Title</label>
+        <input type="text" id="title" placeholder="e.g. Wi-Fi not working">
+
+        <label for="category">Category</label>
+        <select id="category">
+            <option value="it">IT / Wi-Fi</option>
+            <option value="maintenance">Maintenance</option>
+            <option value="cleanliness">Cleanliness</option>
+            <option value="academic">Academic</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="location">Location</label>
+        <input type="text" id="location" placeholder="e.g. Hostel Block A">
+
+        <label for="description">Description</label>
+        <textarea id="description" placeholder="Describe the issue..."></textarea>
+
+        <label for="priority">Priority</label>
+        <select id="priority">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+
+        <button type="submit">Submit Issue</button>
+
+        </form>
+
+        </section>
 
         <section class="issues">
 
