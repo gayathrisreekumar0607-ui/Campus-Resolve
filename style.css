@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #1f2937;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1f2937;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 30px;
+}
+
+.hero {
+    background-color: white;
+    padding: 50px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.hero button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.issues {
+    display: grid;
+    gap: 20px;
+}
+
+.issue-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    font-family:
+}
+
+.hero button{
+    background-color: rgb(238, 34, 194);
+    color: rgb(246, 247, 249);
+    font-size: 15px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+header h3 {
+    font-family:fantasy;
+}
